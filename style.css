@@ -43,42 +43,38 @@ body {
   background: rgb(96, 74, 4);
   color: bisque;
 }
-.butt{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   max-width: 450px;
-   margin: 100px auto;
-   
-  
-   
+.butt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 450px;
+  margin: 100px auto;
 }
-.butt button{
-    width: 70px;
-    height: 70px;
-    display: flex;
-    margin: auto;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    flex-direction: column;
-    margin-top: 5px;
-    font-size: 15px;
-    
+.butt button {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  flex-direction: column;
+  margin-top: 5px;
+  font-size: 15px;
 }
-.butt button:hover{
-    background: rgb(219, 150, 21);
-    font-size: 25px;
-    color: #fff;
-    cursor: pointer;
+.butt button:hover {
+  background: rgb(219, 150, 21);
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
 }
-.butt h3{
-    font-size: 35px;
+.butt h3 {
+  font-size: 35px;
 }
-.butt p{
-    font-size: 12px;
-    font-weight: bolder ;
+.butt p {
+  font-size: 12px;
+  font-weight: bolder;
 }
