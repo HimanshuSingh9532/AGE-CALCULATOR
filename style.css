@@ -1,0 +1,84 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background: blueviolet;
+}
+.input-box {
+  width: 100%;
+  max-width: 450px;
+  height: 80px;
+  background: #fff;
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background: black;
+}
+.input-box input {
+  width: 60%;
+  height: 35px;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background: #fff;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 15px;
+}
+.input-box button {
+  width: 25%;
+  margin-left: 20px;
+  height: 35px;
+  font-size: 18px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.input-box button:hover {
+  background: rgb(96, 74, 4);
+  color: bisque;
+}
+.butt{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   max-width: 450px;
+   margin: 100px auto;
+   
+  
+   
+}
+.butt button{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    flex-direction: column;
+    margin-top: 5px;
+    font-size: 15px;
+    
+}
+.butt button:hover{
+    background: rgb(219, 150, 21);
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+.butt h3{
+    font-size: 35px;
+}
+.butt p{
+    font-size: 12px;
+    font-weight: bolder ;
+}
